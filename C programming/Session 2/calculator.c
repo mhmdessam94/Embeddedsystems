@@ -1,47 +1,58 @@
+//////Author:Mohammed Essam
+/////////Date:7/28/2023
+//////////filename:calculator.c
 #include<stdio.h>
 int main()
 {
-    int x;
-    int y;
-    int z;
-    int m;
+    ////////////input data
+    char operationType;
+    int firstNum;
+    int secondNum;
+    int result;
+    /////////////background of the calc
     printf("*****Welcome to Calculator App****\n");
     printf("1-Addition\n");
     printf("2-Subtarction\n");
     printf("3-Multiplication\n");
     printf("4-Divison\n");
     printf("Otherwise error\n");
-    scanf(" %d",&x);
+    //////////////input the data type
+    scanf(" %d",&operationType);
 
-    if (x==1)
+////////////addition
+    if (operationType==1)
     {
-    scanf(" %d",&y);
-    scanf(" %d",&z);
-        m=y+z;
-        printf("ans=%d",m);
+        printf("enter the numbers");
+    scanf(" %d",&firstNum);
+    scanf(" %d",&secondNum);
+        result=firstNum+secondNum;
+        printf("ans=%d",result);
     }
-    else if (x==2)
+    else if (operationType==2)///////////subtarction
     {
-    scanf(" %d",&y);
-    scanf(" %d",&z);
-        m=y-z;
-        printf("ans=%d",m);
+        printf("enter the numbers");
+    scanf(" %d",&firstNum);
+    scanf(" %d",&secondNum);
+        result=firstNum-secondNum;
+        printf("ans=%d",result);
     }
-    else if (x==3)
+    else if (operationType==3)//////////////multiplication
     {
-    scanf(" %d",&y);
-    scanf(" %d",&z);
-        m=y*z;
-        printf("ans=%d",m);
+        printf("enter the numbers");
+    scanf(" %d",&firstNum);
+    scanf(" %d",&secondNum);
+        result=firstNum*secondNum;
+        printf("ans=%d",result);
     }
-    else if (x==4)
+    else if (operationType==4)///////////Divion
     {
-    scanf(" %d",&y);
-    scanf(" %d",&z);
-        m=y/z;
-        printf("ans=%d",m);
+        printf("enter the numbers");
+    scanf(" %d",&firstNum);
+    scanf(" %d",&secondNum);
+        result=firstNum/secondNum;
+        printf("ans=%d",result);
     }
-    else 
+    else ///////////error
     {
         printf("Error");
     }

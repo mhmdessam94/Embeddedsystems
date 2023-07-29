@@ -6,6 +6,14 @@
  */
 int main(void)
 {
-	int x=FFFFFFF;
+	int x=10;
+	if (x==10)
+	{
+		printf("10");
+	}
+	else
+	{
+		printf("not 10");
+	}
 	return 0;
 }

@@ -1,19 +1,16 @@
-/*
- * main.c
- *
- *  Created on: Jul 22, 2023
- *      Author: THINK BOOK
- */
+#include<stdio.h>
+int fun(int n);
+
 int main(void)
 {
-	int x=10;
-	if (x==10)
-	{
-		printf("10");
-	}
-	else
-	{
-		printf("not 10");
-	}
-	return 0;
+
+	int a = 0;
+	a = fun(5);
+return 0;
+}
+
+
+int fun(int n)
+{
+	if (n>0)
 }

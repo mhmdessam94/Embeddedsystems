@@ -1,5 +1,5 @@
 /******************************************************
- *Author: Mahmoud Khaled Alnmr
+ *Author: Mohammed Essam Eldeeb
  *Layer: HAL
  *SWC: LCD
  *version: 1.00
